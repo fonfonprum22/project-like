@@ -6,7 +6,7 @@
       <p>Project-Like</p>
         <div class="carousel-item active">
 <!-- Image Slide 01 -->
-        <img class="d-block w-100" src="../assets/img/sea1.jpg" >
+        <img  class="d-block w-100" src="../assets/img/sea1.jpg" >
         </div>
         <div class="carousel-item" v-for="image in images" :key="image.id" >
 <!-- Image Slide -->
@@ -42,7 +42,7 @@ export default {
 
 <style>
 #img{
-  
+  width: 80%;
   background-color: white;
   box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  border-radius: 30px;

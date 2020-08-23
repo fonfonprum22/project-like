@@ -3,12 +3,9 @@
     <div class="card">
       <p class="card-text d-flex justify-content-end p-3">Counter: {{counter}}</p>
       <!-- Image -->
-      <img
-        :src="require(`../assets/img/${image}.jpg`)"
-        class="card-img-top mx-auto picture"
-        style="width:400px"
-      />
-
+      <div class="m-5">
+        <img :src="require(`../assets/img/${image}.jpg`)" class="card-img-top mx-auto picture" />
+      </div>
       <div class="card-body">
         <!-- Couter -->
       </div>
@@ -65,6 +62,7 @@ export default {
   box-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card {
+  width: 100%;
   background-color: rgb(245, 195, 203);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
